@@ -17,7 +17,7 @@
 
 <body>
     <div class="container">
-        <form action="back/code.php" method="POST">
+        <form action="table.php" method="POST">
             <div class="form-group">
                 <label for="formGroupExampleInput">Nome Completo </label>
                 <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nome" name="nome">
@@ -28,9 +28,9 @@
             </div>
             <div class="form-group">
                 <label for="formGroupExampleInput3">Aniversário</label>
-                <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="11/11/2022" name="aniver">
+                <input type="date" class="form-control" id="formGroupExampleInput3" placeholder="11/11/2022" name="aniver">
             </div>
-            <input type="submit" name="Enviar">
+            <input type="submit" name="Enviar" >
         </form>
     </div>
 </body>
