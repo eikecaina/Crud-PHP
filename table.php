@@ -8,8 +8,7 @@ require_once("back/code.php");
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="back/code.php">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
@@ -29,14 +28,19 @@ require_once("back/code.php");
         <tbody>
             <?php while ($row = $con->fetch_assoc()) : ?>
                 <tr>
-                    <th scope="row"><?php echo $row["id"];?></th>
+                    <th scope="row"><?php echo $row["id"]; ?></th>
                     <td><?php echo $row["nome"]; ?></td>
                     <td><?php echo $row["cpf"]; ?></td>
                     <td><?php echo $row["aniversario"]; ?></td>
-                    <td><a href="/back/deletar.php?id=<?php echo $row["id"]; ?>">Deletar</a></td>
+                    <td>
+                        <a href="/index.php?id=<?php echo $row["id"]; ?>">Editar</a>
+                        |
+                        <a href="/back/deletar.php?id=<?php echo $row["id"]; ?>">Deletar</a>
+                    </td>
                 <?php endwhile ?>
+                
                 </tr>
         </tbody>
     </table>
-    </table>
+    <a href="index.php">Cadastrar</a>
 </body>
