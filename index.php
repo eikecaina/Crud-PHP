@@ -44,7 +44,7 @@ $result = $con->fetch_assoc();
                 <label for="formGroupExampleInput3">Aniversário</label>
                 <input type="date" class="form-control" value="<?=$result['aniversario'] ?? null?>" id="formGroupExampleInput3" placeholder="11/11/2022" name="aniver">
             </div>
-            <input type="submit" name="Enviar">
+            <button type="submit" class="btn btn-primary btn-lg mt-3 w-25 p-3" value="Cadastrar" name="Enviar">Enviar</button>
         </form>
     </div>
 </body>
