@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+
+* {
+    margin: 0;
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 0 20px;
+}
+
+.img-fluid {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.promocional {
+    margin: 2vh;
+    text-align: center;
+}
+
+.promocional > span {
+    color: #FF8A48;
+}
+
+.promocional > h1 {
+    font-weight: 800;
+    font-size: 5vh;
+    line-height: 120%;
+}
+
+.promocional > img {
+    margin-top: 20px;
+}
+
+.seta {
+    text-align: center;
+    margin: 5%;
+}
+
+.adicionais {
+    display: grid;
+    font-weight: bold;
+}
+
+.btn-outline-success {
+    background-color: #2C2D33 !important;
+    color: #FFFF !important;
+}
+
+.container {
+    background-color: #EDEDED !important;
+}
+
+.info {
+    background-color: #2C2D33;
+    color: #FFFF;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 39px;
+}
+
+.quilometragem {
+    margin-bottom: 36px;
+}
+
+.ano {
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+btn-primary {
+    background-color: #2C2D33 !important;
+    color: #FFFF !important;
+}
