@@ -5,6 +5,7 @@
     margin: 0;
     font-family: 'Montserrat';
     box-sizing: border-box;
+    --bs-gutter-x: 0rem!important;
 }
 
 .header {
@@ -23,17 +24,17 @@
     text-align: center;
 }
 
-.promocional > span {
+.promocional>span {
     color: #FF8A48;
 }
 
-.promocional > h1 {
+.promocional>h1 {
     font-weight: 800;
     font-size: 5vh;
     line-height: 120%;
 }
 
-.promocional > img {
+.promocional>img {
     margin-top: 20px;
 }
 
@@ -74,7 +75,52 @@
     margin-bottom: 36px;
 }
 
-btn-primary {
-    background-color: #2C2D33 !important;
-    color: #FFFF !important;
+.alert {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2C2D33;
+}
+
+#btn-primary {
+    font-weight: bold;
+    background-color: #FF5C00;
+}
+.adicionais > span > img {
+    margin: 25px;
+}
+#gap-2{
+   text-align: center;
+   margin-bottom: 20px;
+}
+.footer {
+    background-color: #131416;
+    color: #fff;
+    display: grid;
+    padding: 70px;
+}
+.logo {
+    margin-bottom: 50px;
+}
+#numero {
+    text-decoration: underline;
+    margin-bottom: 50px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+#endereco {
+    margin-bottom: 50px;
+    font-size: 14;
+    line-height: 21px;
+    letter-spacing: 0.5;
+    
+}
+#copyright {
+    font-size: 10px;
+    letter-spacing: 0.5px;
+}
+#copyright > a{
+    color: #fff;
+}
+button:hover {
+    opacity: 0.5;
 }
