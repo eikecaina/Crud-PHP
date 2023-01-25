@@ -5,122 +5,146 @@
     margin: 0;
     font-family: 'Montserrat';
     box-sizing: border-box;
-    --bs-gutter-x: 0rem!important;
+    --bs-gutter-x: 0rem !important;
 }
 
-.header {
-    padding: 0 20px;
+.preco-mobile {
+    display: none;
 }
 
-.img-fluid {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-}
 
-.promocional {
-    margin: 2vh;
-    text-align: center;
-}
+@media only screen and (max-width: 600px) {
+    .header {
+        padding: 0 20px;
+    }
 
-.promocional>span {
-    color: #FF8A48;
-}
+    .info {
+        margin-top: 20px;
+    }
+    .img-fluid {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
 
-.promocional>h1 {
-    font-weight: 800;
-    font-size: 5vh;
-    line-height: 120%;
-}
+    .preco-mobile {
+        margin: 2vh;
+        text-align: center;
+    }
+    .carro-mobile{
+        font-weight: bold;
+    }
+    .preco-mobile>span {
+        color: #FF8A48;
+    }
 
-.promocional>img {
-    margin-top: 20px;
-}
+    .preco-mobile>h1 {
+        font-weight: 800;
+        font-size: 5vh;
+        line-height: 120%;
+    }
 
-.seta {
-    text-align: center;
-    margin: 5%;
-}
+    .preco-mobile>img {
+        margin-top: 20px;
+    }
 
-.adicionais {
-    display: grid;
-    font-weight: bold;
-}
+    .seta {
+        text-align: center;
+        margin: 5%;
+    }
 
-.btn-outline-success {
-    background-color: #2C2D33 !important;
-    color: #FFFF !important;
-}
+    .adicionais {
+        display: grid;
+        font-weight: bold;
+    }
+    .carro-mobile {
+        margin-bottom: 20px;
+    }
 
-.container {
-    background-color: #EDEDED !important;
-}
+    .btn-outline-success {
+        background-color: #2C2D33 !important;
+        color: #FFFF !important;
+    }
 
-.info {
-    background-color: #2C2D33;
-    color: #FFFF;
-    text-align: center;
-    font-weight: bold;
-    border-radius: 10px;
-    padding: 39px;
-}
+    .container {
+        background-color: #EDEDED !important;
+    }
 
-.quilometragem {
-    margin-bottom: 36px;
-}
+    .info {
+        background-color: #2C2D33;
+        color: #FFFF;
+        text-align: center;
+        font-weight: bold;
+        border-radius: 10px;
+        padding: 39px;
+    }
 
-.ano {
-    margin-top: 36px;
-    margin-bottom: 36px;
-}
+    .quilometragem {
+        margin-bottom: 36px;
+    }
 
-.alert {
-    font-size: 20px;
-    font-weight: bold;
-    color: #2C2D33;
-}
+    .ano {
+        margin-top: 36px;
+        margin-bottom: 36px;
+    }
 
-#btn-primary {
-    font-weight: bold;
-    background-color: #FF5C00;
-}
-.adicionais > span > img {
-    margin: 25px;
-}
-#gap-2{
-   text-align: center;
-   margin-bottom: 20px;
-}
-.footer {
-    background-color: #131416;
-    color: #fff;
-    display: grid;
-    padding: 70px;
-}
-.logo {
-    margin-bottom: 50px;
-}
-#numero {
-    text-decoration: underline;
-    margin-bottom: 50px;
-    font-weight: bold;
-    letter-spacing: 0.5px;
-}
-#endereco {
-    margin-bottom: 50px;
-    font-size: 14;
-    line-height: 21px;
-    letter-spacing: 0.5;
-    
-}
-#copyright {
-    font-size: 10px;
-    letter-spacing: 0.5px;
-}
-#copyright > a{
-    color: #fff;
-}
-button:hover {
-    opacity: 0.5;
+    .alert {
+        font-size: 20px;
+        font-weight: bold;
+        color: #2C2D33;
+    }
+
+    #btn-primary {
+        font-weight: bold;
+        background-color: #FF5C00;
+    }
+
+    .adicionais>span>img {
+        margin: 25px;
+    }
+
+    #gap-2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        background-color: #131416;
+        color: #fff;
+        display: grid;
+        padding: 70px;
+    }
+
+    .logo {
+        margin-bottom: 50px;
+    }
+
+    #numero {
+        text-decoration: underline;
+        margin-bottom: 50px;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+    }
+
+    #endereco {
+        margin-bottom: 50px;
+        font-size: 14;
+        line-height: 21px;
+        letter-spacing: 0.5;
+
+    }
+
+    #copyright {
+        font-size: 10px;
+        letter-spacing: 0.5px;
+    }
+
+    #copyright>a {
+        color: #fff;
+    }
+
+    button:hover {
+        opacity: 0.5;
+    }
 }
