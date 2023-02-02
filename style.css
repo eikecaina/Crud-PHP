@@ -11,7 +11,10 @@
 .preco-mobile {
     display: none;
 }
-
+.image-carossel{
+    object-fit: cover;
+    height: 300px!important;
+}
 
 @media only screen and (max-width: 600px) {
     .header {
@@ -27,6 +30,8 @@
         background-size: cover;
         width: 100%;
     }
+
+    
 
     .preco-mobile {
         margin: 2vh;
